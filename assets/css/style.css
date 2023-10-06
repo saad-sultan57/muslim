@@ -1,0 +1,637 @@
+/* Font Family */
+@font-face {
+  font-family: lato-regular;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: philosopher-bold;
+  src: url(../fonts/Philosopher-Bold.ttf);
+}
+
+@font-face {
+  font-family: philosopher-regular;
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+/* xxx Font Family xxx */
+/* Color Variables */
+:root {
+  --white: #ffff;
+}
+body{
+  overflow-x: hidden;
+}
+/* xxx Color Variables xxx */
+/* TopBar */
+.topbar {
+
+  padding: 0 15px 0;
+  margin: 0 auto;
+  background: #8a9535;
+
+}
+
+.topbar::after {
+  width: 100%;
+  height: 50px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../images/top_bar_back.png);
+  background-repeat: repeat-x;
+  background-position: left, right;
+
+}
+
+.topbar {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  font-family: lato-regular;
+  font-weight: 400;
+}
+
+.topbar .topbar-item {
+  padding: 12px 12px 12px 0;
+}
+
+.topbar i {
+  padding-right: 10px
+}
+
+.topbar button {
+  transition: all 0.2s ease-in;
+  font-size: 18px !important;
+
+  font-family: philosopher-bold !important;
+  background: #F79D05;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  letter-spacing: 0.3px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.topbar button:hover {
+  background: #a1ab57 !important;
+}
+
+/* NavBar */
+.myheader .container {
+  padding: 18px 15px !important;
+}
+
+.myheader i {
+  color: black !important;
+}
+
+.navbar .navbar-brand img {
+  max-width: 195px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  color: black !important;
+  padding: 15px 15px;
+  font-family: philosopher-regular;
+  transition: color 300ms ease-in-out;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+  color: #8a9535;
+}
+
+.bg-dark {
+  background: white !important;
+}
+
+.navbar-toggler {
+  background: #F79D05;
+
+}
+
+/* Banner */
+.banner {
+
+  background-image: url(../images/bg_school-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+
+}
+
+.banner .container {
+  padding: 130px 50px;
+}
+
+.banner .imagearea img {
+  height: 70px;
+
+}
+
+.banner .banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.banner .banner-content h1 {
+  font-size: 66px;
+  line-height: 66px;
+  font-family: philosopher-bold;
+
+}
+
+.banner .banner-content p {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: philosopher-bold;
+  margin-bottom: 30px;
+
+}
+
+.banner .banner-content button {
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 17px;
+  color: white;
+  font-family: lato-regular;
+}
+
+.banner .banner-content .learn-more {
+  background: #f79d05;
+  margin-right: 40px;
+}
+
+.banner .banner-content .learn-more:hover {
+  background: #E29006;
+}
+
+.banner .banner-content .join-classes {
+  background: #8A9535;
+}
+
+.banner .banner-content .join-classes:hover {
+  background: #818A32;
+}
+/* xxx Banner xxx */
+
+/* Prayer Timings */
+.prayer .container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.prayer h2{
+  font-size: 48px!important;
+  font-weight: bold!important;
+  color: #222222!important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: philosopher-bold;
+}
+.prayer h4{
+  font-size: 24px!important;
+  color: #b23a00!important;
+  margin-bottom: 20px;
+  font-family: philosopher-regular;
+  padding: 5px 0 0px;
+  
+
+}
+.prayer p{
+  line-height: 1.7em;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: lato-regular;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.prayer .aai{
+  padding: 17px 35px;
+  border: 0px;
+  outline: none;
+  background: #818A32;
+  color: white;
+  border-radius: 3px;
+}
+.prayer .aai:hover{
+  background: #F79D05;
+}
+.prayer .innerbox{
+  background: #ffffff;
+    border-top-left-radius: 25px;
+    padding-bottom: 35px;
+    -webkit-box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.prayer .innerbox .heading{
+  background-color: #b23a00;
+    text-align: center;
+    padding: 25px 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: philosopher-bold;
+    color: white;
+    
+}
+.prayer .prayers-timing{
+  margin: 35px 0;
+  padding: 0 25px;
+  text-align: center;
+  color: black;
+ 
+
+}
+.prayer .prayers-timing h6{
+  font-size: 15px;
+  line-height: 22px;
+  font-family: lato-regular;
+}
+.prayer .prayers-timing span{
+  color: #8a9536;
+}
+.prayer .all-timings{
+  padding: 5px 80px;
+ 
+}
+.grey-color{
+  background: #F0F0F0;
+}
+.white-color{
+  background: white;
+}
+.prayer .all-timings i{
+  color: #a1ab57;
+  margin-right: 20px;
+}
+.prayer .all-timings .bold{
+  font-weight: bold;
+}
+/* Islamic service center */
+.islamic-center{
+
+  background-image: url(../images/bg2-1-1.png);
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.islamic-center .container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.islamic-center .container h2{
+  font-size: 48px;
+  line-height: 48px;
+  color: #222222;
+  font-family: philosopher-bold;
+  margin-bottom: 20px;
+}
+.islamic-center .container p{
+  font-size: 24px;
+  line-height: 26px;
+  font-family: philosopher-regular;
+  color: #b23a00;
+}
+.islamic-center .subbox .textarea{
+  padding: 60px 35px 35px 35px;
+  
+}
+.islamic-center .subbox .textarea h5{
+  font-size: 22px;
+  line-height: 32px;
+  color: #222222;
+  font-family: philosopher-bold;
+}
+.islamic-center .subbox .textarea p{
+  font-size: 15px;
+  line-height: 26px;
+  color: #222222;
+  font-family: lato-regular;
+}
+.islamic-center .subbox .textarea a{
+  font-size: 14px;
+  line-height: 26px;
+  color: #b23a00;
+  font-family: lato-regular;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.islamic-center .subbox{
+background: #ffffff;
+    -webkit-box-shadow: -2px 2px 44px -19px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -2px 2px 44px -19px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 2px 44px -19px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+    /* position: relative; */
+    margin-bottom: 30px;
+}
+.islamic-center .subbox:hover .textarea{
+  background: #8A9535;
+  
+ 
+}
+.islamic-center .subbox:hover h5{
+  color: white;
+ 
+}
+.islamic-center .subbox:hover p{
+  color: white;
+ 
+}
+.islamic-center .subbox:hover a{
+  color: white;
+  border-bottom: 2px solid white;
+ 
+}
+
+
+.islamic-center .circle{
+  width: 85px ;
+  height: 85px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+ padding-top: 25px;
+ display: none;
+ /* position: absolute;
+ top: 40%;
+ left: 11%; */
+ -webkit-box-shadow: -2px 2px 44px -19px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -2px 2px 44px -19px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 44px 19px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+
+}
+.islamic-center .circle i{
+  font-size: 36px;
+  color: #8A9535;
+}
+/* Upcoming Events */
+.upcoming-events{
+  
+  background-image: url('../images/522531234-Arabesque-Decoration-Moroccan-Arabic-style-1-1.png');
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+}
+.upcoming-events::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.upcoming-events .upcoming-events-foods{
+  padding: 70px;
+}
+.upcoming-events-content{
+  z-index: 111;
+  color: white;
+}
+.upcoming-events-content h2{
+  font-family: Philosopher-bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.upcoming-events-content p{
+  font-family: philosopher-regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.upcoming-events-foods{
+  z-index: 11233223;
+}
+.upcoming-events .aboutfood{
+  width: 80%;
+  margin: 0 auto;
+  background: #B23A00;
+  border-radius: 0px 20px 0px 20px;
+  padding: 10px 0px;
+  text-align: center;
+  
+  z-index: 3000 !important;
+  
+}
+.upcoming-events .aboutfood span{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: philosopher-regular;
+  color: white;
+}
+.upcoming-events .info{
+  z-index: 13000;
+  color: white;
+}
+.upcoming-events .info h3{
+  font-size: 30px;
+  line-height: 42px;
+  color: white;
+  font-family:  philosopher-bold;
+}
+.upcoming-events .info h6{
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+  font-family:  philosopher-regular;
+}
+.upcoming-events .info h3:hover{
+  color: #f79d05;
+}
+.upcoming-events .info p{
+  font-size: 15px;
+  line-height: 26px;
+  color: white;
+  font-family:  philosopher-regular;
+}
+/* Donate */
+.donate{
+
+  background-image: url('../images/bgsa\ \(1\).jpg');
+}
+.donate .container-lg{
+  padding: 50px;
+}
+.donate .subbox{
+  margin-bottom: 40px;
+}
+.donate h3{
+  font-size: 40px!important;
+    font-weight: bold!important;
+    color: #222222!important;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: philosopher-bold;
+}
+.donate p{
+  font-size: 15px;
+  line-height: 26px;
+  color: #222222!important;
+  font-family:  philosopher-regular;
+  margin-top: 10px;
+}
+.donate .aai{
+  padding: 17px 35px;
+  border: 0px;
+  outline: none;
+  background: #818A32;
+  color: white;
+  border-radius: 3px;
+}
+.donate .aai:hover{
+  background: #F79D05;
+}
+.donate .facility .inner{
+  height:auto;
+  background: white;
+  margin-bottom: 20px;
+  
+}
+.donate .facility .inner .inner-detail{
+  padding: 30px;
+}
+.inner-detail a{
+  color: #F79D05;
+}
+.donate .facility .inner .inner-amount{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+.footer{
+  
+  background-image: url('../images/938430448-Ornamental-Arabic-lantern-with-burning-candle-glowing-at-night-and-glittering-golden-bokeh-lights.-Festive-greeting-card-invitation-for-Muslim-holy-month-Ramadan-Kareem-1.jpg');
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.footer::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  border-top: 130px solid transparent;
+  -webkit-border-image: url(../images/footer_border.png);
+  -o-border-image: url(../images/footer_border.png);
+  border-image-slice: 160;
+  border-image-outset: 0;
+  background-color: transparent;
+
+}
+.footer::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer .footer-content {
+  padding-top:200px;
+  z-index: 9999;
+}
+.footer p{
+  font-size: 14px;
+  font-family: lato-regular;
+}
+.footer .searcharea{
+  z-index: 9999;
+}
+.footer .copyright{
+  z-index: 9999;
+  color: white;
+  padding: 30px 0px;
+}
+.footer .icons{
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 200px;
+}
+.footer .searcharea h6{
+  font-size: 24px;
+  line-height: 26px;
+  font-family:  philosopher-regular;
+}
+.footer .searchdiv{
+  width: 70%;
+  height: 50px;
+
+  border-radius: 3px;
+}
+.footer .searchdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #252422;
+}
+.footer .searchdiv input{
+  width: 78%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  background: #252422;
+  color: white;
+  
+  
+}
+.footer input::placeholder{
+  color: #777769;
+}
+.footer .searchdiv button{
+ 
+  height: 100%;
+  padding: 17px ;
+  border: 0px;
+  outline: none;
+  background: #818A32;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  
+}
+.footer .searchdiv button:hover{
+  background: #F79D05;
+}
+.footer .icondiv{
+  padding: 10px;
+  background: #252422;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.footer .icondiv:hover{
+  background: #F79D05;
+}
+.footer .icondiv i{
+  color: white;
+}
