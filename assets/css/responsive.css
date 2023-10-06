@@ -1,5 +1,4 @@
 /* Media Queries Screen 1199px */
-
 @media only screen and (max-width:1199px) {
     .topbar .topbar-item {
         padding: 12px 0px 12px 0;
@@ -10,7 +9,6 @@
     .time {
         display: none;
     }
-
     .navbar .navbar-nav .nav-item .nav-link {
         font-size: 16px;
         color: black !important;
@@ -18,12 +16,10 @@
         font-family: philosopher-regular;
         transition: color 300ms ease-in-out;
     }
-
     .banner .banner-content h1 {
         font-size: 40px;
         line-height: 55px;
-        font-family: philosopher-bold;
-
+       font-family: philosopher-bold;
     }
     .prayer .all-timings {
         padding: 5px 28px;
@@ -32,26 +28,29 @@
         margin: 25px 0;
         padding: 0px 10px;
     }
-    .upcoming-events .upcoming-events-foods{
+    .upcoming-events .upcoming-events-foods {
         padding: 16px;
-      }
-      .upcoming-events .container-lg{
-        padding: 30px;
-      }
-      .donate .container-lg{
-        padding: 20px !important;
-      }
-      .donate h3{
-        font-size: 24px!important;
     }
-    .footer .searchdiv button{
- 
-      
-        font-size: 12px;
-        
-      }
-      .footer .searchdiv {
+    .upcoming-events .container-lg {
+        padding: 30px;
+    }
+
+    .donate .container-lg {
+        padding: 20px !important;
+    }
+
+    .donate h3 {
+        font-size: 24px !important;
+    }
+    .footer .searchdiv button {
+      font-size: 12px;
+    }
+    .footer .searchdiv {
         width: 100% !important;
+    }
+    .community .community-content h2 {
+        font-size: 26px;
+        line-height: 34px;
     }
 }
 
@@ -64,33 +63,26 @@
         font-size: 14px !important;
     }
 }
+
 /* Media Queries Screen 768px */
 @media only screen and (max-width:768px) {
-
     .banner .banner-content h1 {
         font-size: 30px;
         line-height: 44px;
         font-family: philosopher-bold;
-
     }
-    .prayer .section1{
+    .prayer .section1 {
         text-align: center;
-    margin-bottom: 59px;
-      }
-      .footer .searchdiv {
+        margin-bottom: 59px;
+    }
+    .footer .searchdiv {
         width: 100% !important;
     }
-    .footer .searchdiv button{
- 
-      
+    .footer .searchdiv button {
         font-size: 12px;
-        
-      }
-   
-    
-      
-}
+    }
 
+}
 
 /* query for 576 screen and below */
 @media only screen and (max-width:576px) {
@@ -109,39 +101,45 @@
         font-family: philosopher-bold;
 
     }
-    .banner .banner-content button{
+
+    .banner .banner-content button {
         padding: 10px 22px;
         font-size: 14px;
         line-height: 17px;
-      }
-      .banner .banner-content .learn-more{
-        
-        margin-right: 20px;
-      }
-      .prayer .section1{
-        text-align: center;
-    margin-bottom: 59px;
-      }
+    }
 
-      .upcoming-events-content h2{
-      
+    .banner .banner-content .learn-more {
+
+        margin-right: 20px;
+    }
+
+    .prayer .section1 {
+        text-align: center;
+        margin-bottom: 59px;
+    }
+
+    .upcoming-events-content h2 {
+
         font-size: 22px;
-        
+
         margin-bottom: 10px;
-      }
-      .upcoming-events-content p{
-        
+    }
+
+    .upcoming-events-content p {
+
         font-size: 14px;
-      }
-      .footer .searchdiv button{
- 
-      
+    }
+
+    .footer .searchdiv button {
+
+
         font-size: 12px;
-        
-      }
-      .footer .icons {
-    
+
+    }
+
+    .footer .icons {
+
         justify-content: flex-start;
-      }
+    }
 
 }
